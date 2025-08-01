@@ -1,4 +1,4 @@
-<?php include 'db.php'; ?>
+<?php include 'care_schedule_db.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
