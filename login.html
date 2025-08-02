@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Elder Care Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="caregiverlogin.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="login-container">
+    <!-- Header -->
+    <div class="header">
+      <img src="images/logo.jpg" alt="Logo" class="logo" />
+      <h1 class="title">Login</h1>
+      <p class="subtitle">Elderly Care Management System</p>
+    </div>
+
+    <!-- Role Selection -->
+    <div class="role-selection">
+      <label class="role-label">Select Role</label>
+      <div class="role-options">
+        <label class="role-option">
+          <input type="radio" name="role" value="admin" class="role-radio" checked>
+          <span class="role-text">Admin</span>
+        </label>
+        <label class="role-option">
+          <input type="radio" name="role" value="caregiver" class="role-radio">
+          <span class="role-text">Caregiver</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Login Form -->
+    <form id="loginForm" class="login-form">
+      <!-- NIC Field -->
+      <div class="form-group">
+        <label for="nic" class="form-label">
+          <span id="nicLabel">NIC (National Identity Number)</span>
+        </label>
+        <input type="text" id="nic" name="nic" required class="form-input" placeholder="Enter your NIC number">
+      </div>
+
+      <!-- Password Field -->
+      <div class="form-group">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" id="password" name="password" required class="form-input" placeholder="Enter your password">
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="submit-btn">
+        Login
+      </button>
+    </form>
+
+    <!-- Back to Home -->
+    <div class="back-link">
+      <a href="index.php" class="back-btn">← Back to Home</a>
+    </div>
+
+    <!-- Error Message -->
+    <div id="errorMessage" class="error-message hidden"></div>
+  </div>
+
+  <script src="caregiverlogin.js"></script>
+</body>
+</html> 
