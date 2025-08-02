@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elder Care Home</title>
+  <!-- ✅ Tailwind CSS CDN (only once, inside <head>) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 min-h-screen flex flex-col">
+
+  <!-- ✅ Navigation Bar -->
+  <nav class="bg-blue-100 px-6 py-4 shadow rounded-md flex items-center justify-between">
+    <div class="flex items-center space-x-3">
+      <img src="images/logo.jpg" alt="Logo" class="h-10 w-10 mr-2" />
+      <span class="text-xl font-bold text-blue-900">
+        Elderly Care<br>
+        <span class="text-sm">Management System</span>
+      </span>
+    </div>
+    <ul class="flex space-x-8 text-sm font-medium text-blue-900">
+      <li><a href="#" class="hover:underline">Home</a></li>
+      <li><a href="residentList.html" class="hover:underline">Residents</a></li>
+      <li><a href="#" class="hover:underline">Care Schedule</a></li>
+      <li><a href="caregiverlogin.html" class="hover:underline">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- ✅ Hero Section -->
+  <section class="bg-blue-100 py-16 px-6 text-center">
+    <h2 class="text-4xl font-bold text-blue-900 mb-4">Compassionate, Organized,<br />and Reliable Care</h2>
+    <p class="text-gray-700 max-w-2xl mx-auto mb-6">
+      Welcome to the Elderly Care Management System. This platform helps manage residents' details, caregivers, and schedules efficiently and securely.
+    </p>
+    <a href="residentList.html"
+      class="bg-blue-800 text-white px-6 py-3 rounded hover:bg-blue-900 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+      Get Started
+    </a>
+  </section>
+
+  <!-- ✅ Why This System -->
+  <section class="bg-white py-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold text-blue-900 mb-4">Why This System?</h3>
+      <p class="text-gray-700">
+        This application allows administrators and caregivers to manage elderly care tasks, including resident records and appointments. Designed for simplicity, accessibility, and care quality.
+      </p>
+    </div>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer class="bg-blue-900 text-white py-5 text-center text-sm mt-auto">
+    © 2025 Elderly Care Management System. All rights reserved.
+  </footer>
+
+</body>
+</html>
