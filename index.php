@@ -22,7 +22,7 @@
       <li><a href="#" class="hover:underline">Home</a></li>
       <li><a href="residentList.html" class="hover:underline">Residents</a></li>
       <li><a href="#" class="hover:underline">Care Schedule</a></li>
-      <li><a href="#" class="hover:underline">Login</a></li>
+      <li><a href="caregiverlogin.html" class="hover:underline">Login</a></li>
     </ul>
   </nav>
 
